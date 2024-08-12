@@ -97,7 +97,7 @@ function start_vchat() {
 	//Inform byond we're done
 	vchat_state.ready = true;
 	push_Topic('done_loading');
-	push_Topic_showingnum(this.showingnum);
+	push_Topic_showingnum(this.showingnum);adsfasdf
 
 	//I'll do my own winsets
 	doWinset("htmloutput", {"is-visible": true});
